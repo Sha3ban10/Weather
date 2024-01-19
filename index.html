@@ -1,0 +1,144 @@
+<html>
+
+<head>
+    <title>Weather</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="Bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark py-4">
+        <div class="container w-75">
+            <a class="navbar-brand d-flex " href="#">
+                <div>
+                    <img src="imgs/logo@2x.png" alt="" class=" mx-3">
+                </div>
+                <div>
+                    <p class="m-0">Weather</p>
+                    <small>tagline goes here</small>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-2">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Live Cameras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+    <div class="weather w-100">
+        <div class="container ">
+            <div class="row">
+                <div class="cover my-5 position-relative ">
+                    <input type="text" name="search" class="form-control" id="search"
+                        placeholder="Find Your Location...">
+                    <button class="position-absolute btn-1 translate-middle-y rounded-5"> Find</button>
+                    <div class=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content my-5">
+        <div class="container">
+            <div class="row  forecastday">
+                <div class="col-md-4 mb-4">
+                    <div class="card text-bg-dark mb-3 w-100 h-100 " style="width:18rem">
+                        <div class="card-header d-flex justify-content-between">
+                            <div class="day"></div>
+                            <div class="date"> </div>
+                        </div>
+                        <div class="card-body text-start">
+                            <h5 class="card-title fs-3 "> </h5>
+                            <div class="card-text d-flex ">
+                                <h2></h2>
+                                <span class="icon"></span>
+                            </div>
+                            <div class="status p-2 text-info"> </div>
+                            <div class=" wind d-flex gap-4 p-2 fs-6">
+                                <span><img src="imgs/icon-wind.png" alt=""> 18km/h</span>
+                                <span><img src="imgs/icon-umberella.png" alt=""> 20%</span>
+                                <span><img src="imgs/icon-compass.png" alt=""> East</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 ">
+                    <div class="card text-bg-dark mb-3 w-100 h-100 " style="width:18rem">
+                        <div class="card-header text-center">
+                            <div class="day-1"></div>
+                        </div>
+                        <div class="card-body text-center">
+                            <div class="icon-1"></div>
+                            <div class="Max-T-1 p-2 text-info fs-3"></div>
+                            <div class="Min-T-1 p-2 fs-6"></div>
+                            <div class="Condition-1 p-2 text-info fs-6"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 ">
+                    <div class="card text-bg-dark mb-3 w-100 h-100 " style="width:18rem">
+                        <div class="card-header text-center">
+                            <div class="day-2"></div>
+                        </div>
+                        <div class="card-body text-center">
+                            <div class="icon-2"></div>
+                            <div class="Max-T-2 p-2 text-info fs-3"></div>
+                            <div class="Min-T-2 p-2 fs-6"></div>
+                            <div class="Condition-2 p-2 text-info fs-6"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container pb-4">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="cover my-5 position-relative ">
+                        <input type="text" name="search" class="form-control" id="search"
+                            placeholder="Enter your email to subscribe...">
+                        <button class="position-absolute btn-1 translate-middle-y rounded-5"> subscribe</button>
+                        <div class=""></div>
+                    </div>
+                </div>
+                <div class="col-md-3 icons d-flex justify-content-center align-items-center gap-3">
+                    <a href="#" class=""><i class="fa-brands fa-facebook-f "></i></a>
+                    <a href="#" class=""><i class="fa-brands fa-twitter "></i></a>
+                    <a href="#" class=""><i class="fa-brands fa-google-plus "></i></a>
+                    <a href="#" class=""><i class="fa-brands fa-pinterest "></i></a>
+                </div>
+            </div>
+            <p class="col-md-6 pb-3 text-white">Copyright 2014 Company name. Designed by Themezy. All rights reserved
+            </p>
+
+        </div>
+    </div>
+
+
+    <script src="JS/Login.js"></script>
+</body>
+
+</html>

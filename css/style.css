@@ -1,0 +1,112 @@
+body {
+    background: rgb(24, 26, 34);
+    font-family: "Roboto", "Open Sans", sans-serif;
+}
+
+a.navbar-brand img {
+    width: 64px;
+    height: 38px;
+}
+
+a.navbar-brand p {
+    font-size: 17px;
+    font-weight: 700;
+    color: rgb(232, 230, 227);
+}
+
+a.navbar-brand small {
+    font-size: 10px;
+    color: rgb(194, 189, 181);
+}
+
+a.nav-link.active {
+    color: rgb(53, 197, 255) !important;
+    border: solid 1px rgb(0, 136, 190) !important;
+    border-radius: 30px;
+    padding: 5px 25px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #fff;
+    padding: 5px 25px;
+    border: solid 1px transparent;
+    border-radius: 30px;
+    font-size: 14px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: rgb(53, 197, 255);
+    border: solid 1px rgb(0, 136, 190);
+    border-radius: 30px;
+}
+
+.weather {
+    background-image: url(..//imgs/banner.png);
+    background-size: cover;
+
+}
+
+.form-control {
+    background-color: rgb(24, 26, 34);
+    padding: 20 50 20 20;
+    border-radius: 30px;
+    margin: 50px 0;
+    width: 100%;
+    border: none;
+}
+
+.form-control:focus {
+    background-color: rgb(24, 26, 34);
+    box-shadow: none;
+    color: rgb(194, 189, 181);
+}
+
+.form-control::-webkit-input-placeholder {
+    color: rgb(194, 189, 181);
+}
+
+.btn-1 {
+    right: 20px;
+    top: 50%;
+    color: #fff;
+    background: rgb(0, 136, 190);
+    padding: 10 30;
+    border: none;
+}
+
+.card-header {
+    background: #1b1b1b;
+}
+
+.card-text h2 {
+    font-size: 100px;
+}
+
+.card-title {
+    color: #656f75;
+}
+
+.wind {
+    color: #919ea5;
+}
+
+.footer {
+    background: #262936;
+}
+
+.icons a{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(53, 197, 255);
+    transition: 0.5s;
+}
+.icons a:hover{
+    background: #009ad8;
+    color: white;
+}
